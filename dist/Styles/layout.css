@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+}
+.header-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+.top-nav{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.top-nav-link{
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+}
+.top-nav-link li{
+    padding: 10px;
+}
+.logo-section{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+.main-nav{
+    flex: 3;
+    justify-content: center;
+}
+.main-nav-link{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.intro-section{
+    background-image: url(https://res.cloudinary.com/dcczd9zz5/image/upload/v1567175521/Main_Banner_1920_b59vis.jpg);
+    background-position: center;
+    height: 90vh;
+}
+.footer-section{
+    background-color: darkgreen;
+}
+.footer-section > div{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    line-height: 1.5em;
+}
+.footer-section li{
+    list-style: none;
+}
