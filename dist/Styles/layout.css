@@ -69,13 +69,15 @@ a{
 }
 
 
+    
 
 .form-container{
     display: block;
-    margin-top:50px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 50px 35% 40px 35%;
     color:green;
+    box-shadow: 5px 5px 5px 5px rgb(187, 206, 206);
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
 }
   
 
@@ -86,6 +88,7 @@ a{
     border: 1px solid #ccc;
     box-sizing: border-box;
     width:100%;
+    border-radius: 5px;
   }
   
   button {
@@ -96,6 +99,7 @@ a{
     border: none;
     cursor: pointer;
     width:100%;
+    border-radius: 5px;
   }
   
   button:hover {
@@ -106,6 +110,10 @@ a{
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
+  }
+
+  .h3login{
+      text-align: center;
   }
 
   
@@ -122,6 +130,6 @@ a{
       float: none;
     }
     .cancelbtn {
-      width: 100%;
+      width: 50%;
     }
   }
