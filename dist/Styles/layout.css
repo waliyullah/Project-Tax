@@ -146,7 +146,7 @@ a{
     margin: auto auto;
     padding: 1rem 0.5rem 0.5rem 1rem;
   }
-  .about-section h2, h3{
+  .about-section h2, h3 {
     text-align: center;
   }
   
@@ -188,4 +188,16 @@ a{
     .cancelbtn {
       width: 50%;
     }
+  }
+
+  #mission {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .tax-photo {
+    width: 60%;
+    height: 58%;
+    align-self: center;
+    padding-left:20%;
   }

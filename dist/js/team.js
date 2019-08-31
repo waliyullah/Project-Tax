@@ -6,6 +6,114 @@ const members = [
     image: "https://res.cloudinary.com/rexdavinci/image/upload/v1566555418/IMG_20190817_193234.jpg"
   },
   {
+    id: "shn00546",
+    name: "Stephen Robinson",
+    role: "Mobile", 
+    image: "https://res.cloudinary.com/j-nai/image/upload/v1567171357/Steve%20Rob.jpg"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
+  },
+  {
     id: "ADD MEMBER CODE HERE",
     name: "ADD MEMBER CODE HERE",
     role: "ADD MEMBER ROLE HERE", 
@@ -17,8 +125,8 @@ function createImage(member){
   let image = document.createElement("img")
   image.setAttribute("src", member.image)
   image.setAttribute("alt", member.name)
-  image.setAttribute("width", "120")
-  image.setAttribute ("height", "120")
+  image.setAttribute("width", "138")
+  image.setAttribute ("height", "186")
   return image
   }
   
