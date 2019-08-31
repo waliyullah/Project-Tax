@@ -16,7 +16,6 @@ $page = new ProjectTaxIncludes();
    <div class="header-section">
        <div class="top-nav">
            <?php echo $page->topnav(); ?>
-
        </div>
        <div class="logo-section">
             <img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png" width="300px">
@@ -26,12 +25,45 @@ $page = new ProjectTaxIncludes();
 
         </div>
    </div>
-   <div class="intro-section">
-        <div>
-            <h1>Best Way to pay Tax</h1>
-        </div>
-   </div>
+   <div>
+     <form action="">
+ <div class="form-container">
 
+         <h3 class="h3login">Login</h3>
+         <div>
+             <label for="username"><b>Username</b></label>
+             <div>
+                 <input type="text" placeholder="Enter Email" name="user_email" required>
+             </div>
+
+         </div>
+
+         <div>
+             <label for="psw"><b>T.I.N</b></label>
+             <div>
+                 <input type="password" placeholder="Enter TIN number" name="tinnumber" required>
+             </div>
+
+         </div>
+
+         <button type="submit">Login</button>
+
+         <div>
+             <label>
+                 <input type="checkbox" checked="checked" name="remember"> Remember me
+             </label>
+         </div>
+
+         <div>
+             <button type="button" class="cancelbtn">Cancel</button>
+             <span class="psw">Forgot password?<a href="#"></a></span>
+         </div>
+
+ </div>
+
+
+</form>
+   </div>
    <div class="footer-section">
        <div style="margin: 30px;">
           <?php echo $page->footer1();

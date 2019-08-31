@@ -7,13 +7,31 @@
 
 class ProjectTaxIncludes
 {
-  public __construct(){}
+  //public __construct(){}
 
+    public function topnav(){
+        $display = '<ul class="top-nav-link">
+                 <li><i class="fas fa-sign-in-alt"></i><a href="login.php">Sign In</a></li>
+                 <li><i class="fas fa-user-plus"></i><a href="register.php">Register</a></li>
+             </ul>';
+             return $display;
+    }
+
+    public function mainnav(){
+        $display = '<ul class="main-nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fund Projects</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>';
+        return $display;
+    }
     public function footer1() {
       $display = '<div id="footer1">
           <h3>Contact Us</h3>
           <p>
-              <span>block 6, 36 Adeboye Street, Lagos, Nigeria.</span><br>
+              <span>Block 6, 36 Adeboye Street, Lagos, Nigeria.</span><br>
               <span>Support: +234814-7657436, +234701-4360123</span><br>
               <span>mail to info@taxi.comt</span><br>
               <span>Lorem Ipsum</span>
@@ -54,7 +72,7 @@ class ProjectTaxIncludes
       </div>';
       return $display;
     }
-    
+
     public function copyright(){
       $display = '<div id="copyright">
           <p>Copyright © 2019 Team Helsinki. All Rights Reserved | TaxIt.ng is a platform designed & developed by Team Helsinki.</p>
