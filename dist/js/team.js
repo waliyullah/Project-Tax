@@ -1,15 +1,15 @@
 const members = [
   {
-    id: 1,
+    id: "shn00559",
     name: "Abdulhafiz Ahmed",
     role: "Backend", 
     image: "https://res.cloudinary.com/rexdavinci/image/upload/v1566555418/IMG_20190817_193234.jpg"
   },
   {
-    id: 2,
-    name: "Rex",
-    role: "Backend", 
-    image: "https://images.unsplash.com/photo-1567152759562-dc9bbe9a434c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&q=60"
+    id: "ADD MEMBER CODE HERE",
+    name: "ADD MEMBER CODE HERE",
+    role: "ADD MEMBER ROLE HERE", 
+    image: "ADD NEW MEMBER IMAGE HERE"
   }
 ]
 
