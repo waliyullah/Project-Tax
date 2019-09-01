@@ -39,6 +39,8 @@ body{
     justify-content: center;
 }
 .main-nav-link{
+  font-weight: bold;
+  font-size: 16px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -49,6 +51,19 @@ a{
     text-decoration: none;
     color: antiquewhite;
 }
+
+#motto {
+    margin-top: 17%;
+    margin-left: 36%;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 25px;
+    color: white;
+}
+.intro-section{
+    background-image: url(https://res.cloudinary.com/x-sid/image/upload/c_fit,h_713/v1567367800/samples/My%20uploads/taxtit_z02m1e.jpg);
+    background-position: center;
+    height: 70vh;
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -153,19 +168,24 @@ a{
 }
 .end-sect-end{
   padding-top: 50
+
 }
 .footer-section{
     background-color: darkgreen;
 }
 .footer-section > div{
     display: flex;
-  flex-direction: row;
+   flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
     line-height: 1.5em;
 }
 .footer-section li{
     list-style: none;
+}
+.footer-headings{
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .blur{
