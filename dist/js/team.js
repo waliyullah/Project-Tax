@@ -218,7 +218,7 @@ const members = [
   {
     id: "ADD MEMBER CODE HERE",
     name: "Sidney Ihunwaeze",
-    role: "Frontend", 
+    role: "Backend", 
     image: "https://res.cloudinary.com/x-sid/image/upload/v1566549618/samples/My%20uploads/2018-07-01-19-24-05-142_w8zdxf.jpg"
   },
   {

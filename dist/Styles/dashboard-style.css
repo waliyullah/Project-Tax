@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rale way', sans-serif;
     background-color: #fee;
     margin: 0px;
     padding: 0px;
@@ -16,6 +16,10 @@ p {
 */
     font-size: 15px;
     line-height: 2;
+}
+
+.intro-section {
+    color: #4fb91d;
 }
 
 
@@ -67,7 +71,7 @@ nav>ul {
 }
 
 
-nav ul li a {
+ nav ul li a {
     text-decoration: none;
     color: #fee;
 
