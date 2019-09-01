@@ -26,16 +26,34 @@ $page = new ProjectTaxIncludes();
         </div>
    </div>
    <div>
-     <form action="">
+     <form action="regform.php" method="post">
  <div class="form-container">
 
          <h3 class="h3login">Register</h3>
+         <div id="formresponse">
+           <?php if($_GET['fr']){
+             echo $_GET['fr'];
+           }   ?>
+         </div>
+         <div>
+           <label for="nme"><b>First Name</b></label>
+           <div>
+             <input type="text" name="nme" placeholder="Enter First Name" required>
+           </div>
+         </div>
+
+         <div>
+           <label for="lname"><b>SurName</b></label>
+           <div>
+             <input type="text" name="lname" placeholder="Enter Last Name">
+           </div>
+         </div>
+
          <div>
              <label for="user_email"><b>Email</b></label>
              <div>
                  <input type="text" placeholder="Enter Email" name="user_email" required>
              </div>
-
          </div>
 
          <div>
@@ -43,28 +61,48 @@ $page = new ProjectTaxIncludes();
              <div>
                  <input type="number" placeholder="Enter Phone Number" name="phn" required>
              </div>
-
          </div>
 
          <div>
-           <label for="nme"><b>Name</b></label>
-           <div>
-             <input type="text" placeholder="Enter Full Name" required>
-           </div>
-
-         </div>
-
-         <button type="submit">Login</button>
-
-         <div>
-             <label>
-                 <input type="checkbox" checked="checked" name="remember"> Remember me
-             </label>
+             <label for="uname"><b>Username</b></label>
+             <div>
+                 <input type="text" placeholder="Enter Desired Username" name="uname" required>
+             </div>
          </div>
 
          <div>
-             <button type="button" class="cancelbtn">Cancel</button>
-             <span class="psw">Forgot password?<a href="#"></a></span>
+             <label for="addr"><b>Address</b></label>
+             <div>
+                 <input type="text" placeholder="Enter Your Address" name="addr">
+             </div>
+         </div>
+
+         <div>
+             <label for="sta"><b>State</b></label>
+             <div>
+                 <select name="sta">
+                    <option value="Lagos">Lagos</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Kaduna">Kaduna</option>
+                </select>
+             </div>
+         </div>
+
+         <div>
+             <label for="lga"><br/><b>Local Government Area</b></label>
+             <div>
+                 <input type="text" placeholder="Enter L.G.A." name="lga">
+             </div>
+         </div>
+
+         <button type="submit">Register</button>
+         <button type="button" class="cancelbtn" style="width: -webkit-fill-available;">Cancel</button>
+
+
+         <div>
+
+
          </div>
 
  </div>

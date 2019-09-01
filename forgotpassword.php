@@ -10,12 +10,13 @@ $page = new ProjectTaxIncludes();
     <link rel="stylesheet" type="text/css" href="dist/Styles/layout.css">
     <script src="https://kit.fontawesome.com/f618f790f8.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <title>TaxIt.ng || Home</title>
+    <title>TaxIt.ng || Forgot Password</title>
 </head>
 <body>
    <div class="header-section">
        <div class="top-nav">
            <?php echo $page->topnav(); ?>
+
        </div>
        <div class="logo-section">
             <img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png" width="300px">
@@ -25,45 +26,37 @@ $page = new ProjectTaxIncludes();
 
         </div>
    </div>
-   <div>
-     <form action="">
- <div class="form-container">
+   <form action="">
+        <div class="form-container forgot-form">
 
-         <h3 class="h3login">Login</h3>
-         <div>
-             <label for="username"><b>Username</b></label>
-             <div>
-                 <input type="text" placeholder="Enter Email" name="user_email" required>
-             </div>
+                <h3 class="h3Forgot Password">Forgot Password</h3>
+                <div>
+                        <p>
+                                Please enter your email address below and we will send you information to change your password.
+                             </p>
+                    <label for="email"><b>Email</b></label>
+                    <div>
+                        <input type="text" placeholder="Enter email" name="email" required>
+                    </div>
+                    
+                </div>
+                
+                <button type="reset">Reset</button>
+                <div class="form-container forgot-return" style="display:none;">
+                    <h3>
+                       Reset Password Sent
+                    </h3>
+                    <p>
+                       An email has been sent to your address with a reset password you can use to access your account.
+                    </p>
+                </div>
+         
+        
+        </div>
+      
+       
+    </form>
 
-         </div>
-
-         <div>
-             <label for="psw"><b>T.I.N</b></label>
-             <div>
-                 <input type="password" placeholder="Enter TIN number" name="tinnumber" required>
-             </div>
-
-         </div>
-
-         <button type="submit">Login</button>
-
-         <div>
-             <label>
-                 <input type="checkbox" checked="checked" name="remember"> Remember me
-             </label>
-         </div>
-
-         <div>
-             <button type="button" class="cancelbtn">Cancel</button>
-             <span class="psw"><a style="color:inherit;" href="forgotpassword.php">Forgot password?</a></span>
-         </div>
-
- </div>
-
-
-</form>
-   </div>
    <div class="footer-section">
        <div style="margin: 30px;">
           <?php echo $page->footer1();
