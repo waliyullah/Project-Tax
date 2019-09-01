@@ -51,6 +51,7 @@ a{
     text-decoration: none;
     color: antiquewhite;
 }
+
 #motto {
     margin-top: 17%;
     margin-left: 36%;
@@ -62,6 +63,112 @@ a{
     background-image: url(https://res.cloudinary.com/x-sid/image/upload/c_fit,h_713/v1567367800/samples/My%20uploads/taxtit_z02m1e.jpg);
     background-position: center;
     height: 70vh;
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides{
+  display: flex;
+  flex-direction: column;
+  justify-content:inherit;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.intro-section{
+    /*background-image: url(https://res.cloudinary.com/dcczd9zz5/image/upload/v1567175521/Main_Banner_1920_b59vis.jpg);
+    background-position: center;
+    height: 90vh;*/
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+}
+#intro-btn{
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.carousel{
+  display: flex;
+  flex-direction: column;
+}
+.jumbotron{
+  background-color: #80808014;
+  height: 20vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.card-section{
+  display: flex;
+  padding: 30px;
+  color: black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card h1,p{
+  padding: 10px;
+}
+.end-sect{
+  display: flex;
+  color: black;
+  padding: 40px;
+}
+.end-sect-end h2{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.end-sect-end p{
+  padding-top: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.end-sect-end{
+  padding-top: 50
+
 }
 .footer-section{
     background-color: darkgreen;
@@ -115,7 +222,7 @@ a{
     border-radius: 5px;
   }
   
-  button {
+  form button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -126,7 +233,7 @@ a{
     border-radius: 5px;
   }
   
-  button:hover {
+ form button:hover {
     opacity: 0.8;
   }
   
