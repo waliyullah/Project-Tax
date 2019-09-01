@@ -12,10 +12,10 @@ const members = [
     image: "https://res.cloudinary.com/j-nai/image/upload/v1567171357/Steve%20Rob.jpg"
   },
   {
-    id: "ADD MEMBER CODE HERE",
-    name: "ADD MEMBER CODE HERE",
-    role: "ADD MEMBER ROLE HERE", 
-    image: "ADD NEW MEMBER IMAGE HERE"
+    id: "shn00270",
+    name: "Gabriel John",
+    role: "Front-End", 
+    image: "https://res.cloudinary.com/dcczd9zz5/image/upload/v1566567334/WhatsApp_Image_2019-08-23_at_2.27.25_PM_z7dcmc.jpg"
   },
   {
     id: "ADD MEMBER CODE HERE",
