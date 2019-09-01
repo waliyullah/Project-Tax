@@ -3,7 +3,7 @@ const members = [
     id: "shn00559",
     name: "Abdulhafiz Ahmed",
     role: "Backend", 
-    image: "https://res.cloudinary.com/rexdavinci/image/upload/v1566555418/IMG_20190817_193234.jpg"
+    image: "https://res.cloudinary.com/rexdavinci/image/upload/v1567307411/Abdulhafiz.jpg"
   },
   {
     id: "shn00546",
@@ -12,17 +12,16 @@ const members = [
     image: "https://res.cloudinary.com/j-nai/image/upload/v1567171357/Steve%20Rob.jpg"
   },
   {
-<<<<<<< HEAD
     id: "ADD MEMBER CODE HERE",
     name: "Francis Chigozie Obasi",
     role: "Machine Learning", 
     image: "https://res.cloudinary.com/basifrank/image/upload/v1566554656/MyDP_r0t0p6.jpg"
-=======
+  },
+  {
     id: "shn00270",
     name: "Gabriel John",
     role: "Front-End", 
     image: "https://res.cloudinary.com/dcczd9zz5/image/upload/v1566567334/WhatsApp_Image_2019-08-23_at_2.27.25_PM_z7dcmc.jpg"
->>>>>>> c7632d98fd5503fb4dec689f661b5386e3ff1512
   },
   {
     id: "ADD MEMBER CODE HERE",
