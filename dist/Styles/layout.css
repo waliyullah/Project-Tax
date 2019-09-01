@@ -39,10 +39,10 @@ body{
     justify-content: center;
 }
 .main-nav-link{
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 
 }
 a{
@@ -59,7 +59,7 @@ a{
 }
 .footer-section > div{
     display: flex;
-	flex-direction: row;
+  flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
     line-height: 1.5em;
@@ -71,7 +71,7 @@ a{
 .blur{
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  height: 900px;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
