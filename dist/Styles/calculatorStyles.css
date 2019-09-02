@@ -65,5 +65,15 @@ margin-bottom: 6px;
     text-align: center;
     color: #f8f8f8;
     border-radius: 5px;
+    cursor: pointer;
 }
+
+.percent{
+    display: none;
+    color: red;
+}
+
+
+
+
 
