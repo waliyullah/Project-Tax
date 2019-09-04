@@ -1,180 +1,121 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="dist/Styles/calculatorStyles.css">
-    <title>Calculate Tax</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/f618f790f8.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>TaxIt.ng || Home</title>
 </head>
 <body>
-    <div class="calculate">
-        <h2>Calculate Tax</h2>
-        <div class="form">
-            <div class="card space">
-                <label class="label">Status</label>
-                <select class="input"> 
-                    <option value="1">Corporate</option> 
-                    <option value="2">Individual</option> 
-                </select>
+          <div class="header">
+                <div class="logo">
+                        <a href="index.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
+                </div>
+              <ul class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="project.html">Projects</a>
+                    <a href="payment.html" class="active">Pay Tax</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="#">Team</a>
+                    <a href="about.html">About Us</a>
+                    <a href="signin.html" id="menu-highlight"><button class="login-btn" type="button">Login</button></a>
+
+              </ul>
+
+            </div>              
+            
+       
+        <div class="calculate">
+            <h2>Calculate Tax</h2>
+        <form action="">
+                <p>
+                        <label class="label">Status</label>
+                        <select class="input"> 
+                            <option value="1">Corporate</option> 
+                            <option value="2">Individual</option> 
+                        </select>
+                    </p>
+            <p></p><input type="text" class="textinput" name="" id="" placeholder="Name of Tax Payer"></p>
+            <p></p><input type="email" class="textinput" name="" id="" placeholder="Email Address"></p>
+            <p></p><input type="number" class="textinput" name="" id="" placeholder="Phone No."></p>
+            <p>
+                    <label class="label">Payment Month</label>
+                    <select class="input"> 
+                            <option value="sept">September</option> 
+                            <option value="oct">October</option> 
+                            <option value="nov">November</option> 
+                        </select>
+                    
+                    </p>
+
+                <p></p><input type="number" class="textinput income" name="" id="" placeholder="Please, input your annual Income"></p>
+                <p><label class="percent">Tax % to be paid</label></p>
+            
+                <p><button class="btn-pay" id="calculate">Calculate Tax</button></p>
+                <p></p><input type="number" class="textinput income" name="" id="" placeholder="Tax Amount"></p>
+                <p><button class="btn-pay" id="submit">Pay Tax</button></p>
+           
+        </form>
+    </div>
             </div>
 
-                <div class="card space">
-                        <label class="label">Payment Month</label>
-                        <select class="input"> 
-                                <option value="sept">September</option> 
-                                <option value="oct">October</option> 
-                                <option value="nov">November</option> 
-                            </select>
-                        
+        <footer>
+                <div class="logo">
+                        <a href="index.html"><img src="https://res.cloudinary.com/dcczd9zz5/image/upload/v1567174130/ff_nbwkbr.png"></a>
                     </div>
-                               
-                    <div class="card">
-                        <label class="label">Annual Income</label>
-                        <input type="text" class="input textinput income" name="income" 
-                        placeholder="Please, input your annual Income">
-                    </div>
+                    <div class="footer-contents">
+                        <div class="about">
 
-                    <div class="card">
-                        <label class="percent">Tax % to be paid</label>
-                        <!-- <input type="text" class="input textinput" name="income" 
-                        placeholder="Please, input your annual Income"> -->
-                    </div>
-                  
-                    <!-- <div class="card space">
-                            <label class="label">Income Band</label>
-                            <select class="input band"> 
-                                    <option value="A">10k - 50k : 5%</option> 
-                                    <option value="B">50k - 150k : 5.5%</option> 
-                                    <option value="C">150k - 500k : 6.0%</option>
-                                    <option value="D">500k - 2M : 10.0%</option>  
-                                </select>
+
+            <h4>About Us</h4>
+                <p>TaxIt.NG is a financial non-governmental organisation built by a team of young interns and change agents to solve the persisting 
+                    problem of tax collection and poor accountable 
+                    utilisation of tax revenue to create social 
+                    development and benefits to taxpayers... <a href="">More</a> </p>
+            </div>
+            <div class="news">
+                <h4>Newsletter</h4>
+                    <p>Stay updated with our latest news & products</p>		
+                        <div id="embed-signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                            <div>
+                                <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                <button  id="go-btn">Go</button>		
+                            </div>									
                             
-                        </div> -->
-
-                        <div class="btn" id="calculate">
-                            Calculate
+                        </form>
+                </div>
+            </div>
+            <div class="contact">
+                    <h4>Contact Us</h4>
                     
-
+                        <p>3, Birrel Avenue <br>
+                            Yaba, Lagos <br>
+                            <a href="mailto:info@taxit.ng">info@taxit.ng</a> <br>
+                            01-2345678 <br>
+                            08489102638, 8920271538. <br>
+                        </p>
+                    
+                </div>
+                <div class="social">
+                <h4>Follow Us</h4>
+                    <div class="sm">
+                            <a href="#"><i class="fab fa-twitter"></i></a> &nbsp &nbsp 
+                            <a href="#"><i class="fab fa-facebook-square"></i></a> &nbsp &nbsp 
+                            <a href="#"><i class="fab fa-instagram"></i></a> &nbsp &nbsp 
+                            <a href="#"><i class="fab fa-whatsapp"></i></a> &nbsp &nbsp 
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
-
-                        <div class="card">
-                                <label class="label">Amount Due</label>
-                                <input type="text" class="input textinput" name="card_holder" 
-                                placeholder="Amount">
-                            </div>
-                            
-
-                            <div class="btn" id="submit">
-                                    Proceed to Payment
-        
-                                </div>
-
-        </div>
-
-        <script>
-            let income = document.querySelector(".income").value;
-            let percent = document.querySelector(".percent");
-            let due = document.querySelector("#calculate");
-
-            // due.addEventListener()
-
-            
-            let percentage = 0;
-            const getPercentage = (income) => {
-              
-              if(income <= 50000){
-                percentage = 5;
-                percent.innerHTML = percentage + "%";
-                percent.style.display = "inline";
-              }
-
-              if(income > 50000 &&  income <= 150000){
-                percentage = 5.5;
-                percent.innerHTML = percentage + "%";
-                percent.style.display = "inline";
-              }
-
-              if(income > 150000 &&  income <= 500000){
-                percentage = 6.0;
-                percent.innerHTML = percentage + "%";
-                percent.style.display = "inline";
-              }
-
-              if(income > 500000){
-                percentage = 10;
-                percent.innerHTML = percentage + "%";
-                percent.style.display = "inline";
-              }
-            }
-
-            income.addEventListener('input', getPercentage(income));
-
-            const calcTaxToBepaid = () => {
-            let amountDue = document.querySelector(".textInput");
-            let tax = 0;
-            if(selected === 0){
-              tax = selected.value * 5 /100;
-              amountDue.value = tax;
-            }
-
-            if(selected === 1){
-              tax = selected.value * 5.5 /100;
-              amountDue.value = tax;
-            }
-
-            if(selected === 1){
-              tax = selected.value * 6 /100;
-              amountDue.value = tax;
-            }
-
-            if(selected === 1){
-              tax = selected.value * 10 /100;
-              amountDue.value = tax;
-            }
-            }
-
-            console.log(tax);
-        </script>
-
-        <script type="text/javascript" src="http://flw-pms-dev.eu-west-1.elasticbeanstalk.com/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
-        <!-- <script type="text/javascript" src="https://ravesandboxapi.flutterwave.com/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script> -->
-        
-      <script>
-           document.addEventListener("DOMContentLoaded", function(event) {
-        document.getElementById("submit").addEventListener("click", function(e) {
-          var PBFKey = "FLWPUBK_TEST-adc34bcd81cd2a3c566caa003ae499ab-X";
-          
-          getpaidSetup({
-          PBFPubKey: PBFKey,
-          customer_email: "user@example.com",
-          customer_firstname: "Temi",
-          customer_lastname: "Adelewa",
-          custom_description: "Pay Internet",
-          custom_logo: "http://localhost/communique-3/skin/frontend/ultimo/communique/custom/images/logo.svg",
-          custom_title: "Communique Global System",
-          amount: 2000,
-          customer_phone: "234099940409",
-          country: "NG",
-          currency: "NGN",
-          txref: "team.Helsinki",
-          integrity_hash: "6800d2dcbb7a91f5f9556e1b5820096d3d74ed4560343fc89b03a42701da4f30",
-          onclose: function() {},
-          callback: function(response) {
-            var flw_ref = response.tx.flwRef; // collect flwRef returned and pass to a 					server page to complete status check.
-            console.log("This is the response returned after a charge", response);
-            if (
-              response.tx.chargeResponseCode == "00" ||
-              response.tx.chargeResponseCode == "0"
-           ) {
-                // redirect to a success page
-              } else {
-                // redirect to a failure page.
-              }
-            }
-          });
-        });
-      });
-      </script>
-     
+                    </div>
+                        <div class="copyright">
+                <p>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> &nbsp &nbsp  All rights reserved | Team Helsinki </p> 
+                </div>
+            </div>
+        </footer>
 </body>
-</html>
+</html> 
